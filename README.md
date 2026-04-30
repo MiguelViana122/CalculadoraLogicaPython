@@ -1,62 +1,53 @@
-aplicação desktop desenvolvida em Python utilizando Tkinter. O programa permite inserir expressões de lógica proposicional, gerar automaticamente a tabela-verdade e classificar a expressão como tautologia, contradição ou contingência.
+<div align="center">
+  <h1>🧮 Calculadora de Lógica Proposicional</h1>
+  <p><i>Aplicação desktop desenvolvida em Python utilizando Tkinter.</i></p>
+  
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-blue?style=for-the-badge)
+  ![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
+</div>
 
-Funcionalidades
-Suporte a até 5 variáveis proposicionais: p, q, r, s, t
-Validação de fórmula bem formada (FBF)
-Geração automática da tabela-verdade
-Classificação da expressão em:
-Tautologia
-Contradição
-Contingência
-Interface gráfica simples e intuitiva
-Botões para inserção rápida dos operadores
-Operadores Suportados
-Símbolo	Significado
-¬	Negação
-∧	Conjunção (AND)
-∨	Disjunção (OR)
-⊻	Ou exclusivo (XOR)
-→	Implicação
-↔	Bicondicional
-Como Executar
-Pré-requisitos
-Python 3 instalado
-Passos
-git clone https://github.com/MiguelViana122/CalculadoraLogicaPython.git
-cd CalculadoraLogicaPython
-python calculadora.py
+<br>
 
-Observação: substitua calculadora.py pelo nome real do seu arquivo, se for diferente.
+O programa permite inserir expressões de lógica proposicional, gerar automaticamente a tabela-verdade completa e classificar a expressão lógica de forma instantânea.
 
-Exemplo de Uso
+---
 
-Entrada:
+## ✨ Funcionalidades
 
-(p ∧ q) → ¬r
+- **Múltiplas Variáveis:** Suporte a até 5 variáveis proposicionais simultâneas (`p`, `q`, `r`, `s`, `t`).
+- **Validação Inteligente:** Verificação rigorosa de Fórmula Bem Formada (FBF).
+- **Tabela-Verdade:** Geração automática e formatada da tabela.
+- **Classificação:** Análise da expressão e classificação automática em:
+  - 🟢 **Tautologia**
+  - 🔴 **Contradição**
+  - 🟡 **Contingência**
+- **Interface Amigável:** GUI simples e intuitiva.
+- **Teclado Virtual:** Botões na interface para inserção rápida dos operadores lógicos.
 
-Saída:
+---
 
-Tabela-verdade completa
-Classificação da expressão
-Estrutura do Projeto
-verificar_fbf() → valida a expressão lógica
-avaliar() → resolve a expressão
-mostrar_tabela() → gera a tabela-verdade
-Interface construída com Tkinter
-Validação de Entrada
+## 🔣 Operadores Suportados
 
-O programa verifica:
+| Símbolo | Significado |
+| :---: | :--- |
+| `¬` | Negação (NOT) |
+| `∧` | Conjunção (AND) |
+| `∨` | Disjunção (OR) |
+| `⊻` | Ou exclusivo (XOR) |
+| `→` | Implicação |
+| `↔` | Bicondicional |
 
-Parênteses balanceados
-Uso correto dos operadores
-Estrutura válida da expressão
+---
 
-Caso haja erro, uma mensagem será exibida.
+## 🚀 Como Executar
 
-Tecnologias Utilizadas
-Python 3
-Tkinter
-itertools
-Autor
+### Pré-requisitos
 
-Projeto desenvolvido por Miguel Viana para fins acadêmicos.
+Certifique-se de ter o **Python 3** instalado na sua máquina. Você pode baixar a versão mais recente [aqui](https://www.python.org/downloads/).
+
+### Passos para instalação e execução
+
+1. Clone este repositório:
+```bash
+git clone [https://github.com/MiguelViana122/CalculadoraLogicaPython.git](https://github.com/MiguelViana122/CalculadoraLogicaPython.git)
